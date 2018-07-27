@@ -5,6 +5,7 @@ import random
 import matplotlib.pyplot as plt
 from itertools import chain, repeat, islice
 
+"""this file contains the structure of the network"""
 def pad_infinite(iterable, padding=None):
    return chain(iterable, repeat(padding))
 
